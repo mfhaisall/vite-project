@@ -1,6 +1,5 @@
-import Card from "./components/Card";
-import Roblox from "./components/Roblox";
+import Router from "./routers/Router";
 
 export default function App() {
-  return <Routers />;
+  return <Router />;
 }
