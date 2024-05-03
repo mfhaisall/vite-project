@@ -1,7 +1,7 @@
 import React from "react"
 export default function Roblox() {
     return(
-     <div class="max-w-sm rounded overflow-hidden shadow-lg">
+     <div class="max-w-sm rounded overflow-hidden shadow-lg hover:-translate-y-2 shadow-xl">
     <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2">sepeda balap keren</div>
     <p class="text-gray-700 text-base">

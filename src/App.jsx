@@ -48,7 +48,7 @@ export default function App() {
 <div class='text-center bg-slate-500'>
   <h2 class='font-bold p-2'>produk unggulan</h2>
   <p class='from-neutral-500 p-4'>dengan belanja disini dapatkan kupon diskon tiap item</p>
-<div class='flex items-center justify-center gap-3'> 
+<div class='flex items-center justify-center gap-3 py-2 hover: hover:-translate-y-2 shadow-xl'> 
 <Card/>
 <Card/>
 <Card/>
@@ -56,9 +56,9 @@ export default function App() {
 </div>
 
 {/* sponsor */}
-<div class='text-center'>
+<div class='text-center bg-slate-800'>
   <h1 class='font-bold'>sponsor</h1>
-<div class='flex-auto'>
+<div class='flex-auto py-2'>
 <h3>oppo</h3>
 <h3>xiaomi</h3>
 <h3>samsung</h3>
@@ -67,7 +67,7 @@ export default function App() {
 </div>
 
 {/* footer */}
-<footer class="bg-gray-800 text-white py-8 fixed-bottom bottom-0 w-full">
+<footer class=' bg-black text-white py-8 fixed-bottom bottom-0 w-full'>
   <div class="container mx-auto flex flex-col items-center">
     <h2 class="text-2xl font-semibold mb-4">Hubungi Kami</h2>
     <ul class="flex mb-4">
