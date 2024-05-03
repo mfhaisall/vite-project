@@ -5,6 +5,7 @@ export default function App() {
 
 
   return (
+    // navbarr
     <body>
       <div className='bg-gray-500 flex justify-between p-6'>
         <h1 className="font-bold">buka lapak</h1>
@@ -41,6 +42,28 @@ export default function App() {
 <Roblox/>
 <Roblox/>
 <Roblox/>
+</div>
+
+{/* konten tambahan */}
+<div class='text-center bg-slate-500'>
+  <h2 class='font-bold p-2'>produk unggulan</h2>
+  <p class='from-neutral-500 p-4'>dengan belanja disini dapatkan kupon diskon tiap item</p>
+<div class='flex items-center justify-center gap-3'> 
+<Card/>
+<Card/>
+<Card/>
+</div>
+</div>
+
+{/* sponsor */}
+<div class='text-center'>
+  <h1 class='font-bold'>sponsor</h1>
+<div class='flex-auto'>
+<h3>oppo</h3>
+<h3>xiaomi</h3>
+<h3>samsung</h3>
+<h3>infinix</h3>
+</div>
 </div>
 
 {/* footer */}
