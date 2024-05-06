@@ -1,7 +1,7 @@
-import React from "react";
-import Card from "../components/Card";
-import Roblox from "../components/Roblox";
-import Navbar from "../components/Navbar";
+import React from 'react';
+import Card from '../components/Card';
+import Roblox from '../components/Roblox';
+import Navbar from '../components/Navbar';
 
 export default function Beranda() {
   return (
@@ -9,18 +9,13 @@ export default function Beranda() {
       <Navbar />
 
       {/* searching */}
-      
+
       {/* banner */}
       <div className="bg-gradient-to-r from-blue-500 to-indigo-500 p-8 rounded-lg shadow-lg text-center text-white">
         <h2 className="text-3xl font-semibold mb-2">Diskon Akhir Tahun!</h2>
-        <p className="text-lg mb-4">
-          Dapatkan diskon hingga 50% untuk semua produk!
-        </p>
-        <a
-          href="#"
-          className="bg-white text-blue-500 hover:bg-blue-500 hover:text-white font-bold py-2 px-4 rounded-full inline-block"
-        >
-          Belanja Sekarang
+        <p className="text-lg mb-4">Dapatkan diskon hingga 50% untuk semua produk!</p>
+        <a href="#" className="bg-white text-blue-500 hover:bg-blue-500 hover:text-white font-bold py-2 px-4 rounded-full inline-block">
+          Belanja Sekarang okokosdf
         </a>
       </div>
       <div className="flex items-center justify-center gap-3">
@@ -38,9 +33,7 @@ export default function Beranda() {
       {/* konten tambahan */}
       <div className="text-center bg-slate-500">
         <h2 className="font-bold p-2">produk unggulan</h2>
-        <p className="from-neutral-500 p-4">
-          dengan belanja disini dapatkan kupon diskon tiap item
-        </p>
+        <p className="from-neutral-500 p-4">dengan belanja disini dapatkan kupon diskon tiap item</p>
         <div className="flex items-center justify-center gap-3 py-2 hover: hover:-translate-y-2 shadow-xl">
           <Card />
           <Card />
